@@ -37,3 +37,6 @@ button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}butto
 .reel-external .ui-icon,footer .ui-icon,#video-source .ui-icon,.market-caption a .ui-icon{width:16px;height:16px;margin-left:5px}.steps>.ui-icon{width:16px;height:16px}#instagram-retry .ui-icon{width:16px;height:16px;margin-left:4px}
 
 .offer-end{justify-content:flex-end}
+
+/* Minimal close control with a comfortable touch target. */
+#video-dialog #close-video{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;min-height:44px;padding:0;border:0;border-radius:50%;background:transparent;color:#eee;line-height:1}#video-dialog #close-video .ui-icon{width:22px;height:22px;stroke-width:1.5}#video-dialog #close-video:hover{background:#ffffff0d}#video-dialog #close-video:focus-visible{outline:2px solid #ed4035;outline-offset:2px}
